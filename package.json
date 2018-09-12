@@ -9,8 +9,7 @@
     "test": "echo \"Error: no test yet!\" && exit 0",
     "build": "tsc",
     "build-watch": "tsc --watch",
-    "docs": "documentation readme dist/** --section=\"JavaScript API\"",
-    "build-all": "rm -rf dist && yarn run build && yarn run docs",
+    "build-all": "rm -rf dist && yarn run build",
     "precommit": "yarn run build"
   },
   "repository": {
